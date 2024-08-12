@@ -152,6 +152,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  background: var(--clr-dark);
 }
 
 .logo {
@@ -256,4 +257,44 @@ header {
 
 .hamburger::after {
   bottom: 6px;
+}
+
+/* Navbar on larger screens */
+@media (min-width: 1000px) {
+  .nav,
+  .hamburger,
+  .nav-toggle {
+    display: none;
+  }
+
+  .navL {
+    margin-right: 2rem;
+  }
+
+  .nav__listL {
+    display: flex;
+    flex-direction: row;
+    font-size: var(--fs-h3);
+    list-style: none;
+  }
+
+  .nav__linkL {
+    color: var(--clr-accent);
+    text-decoration: none;
+  }
+
+  .nav__linkL:hover {
+    text-shadow: 0 0 3px var(--clr-accent), 0 0 5px var(--clr-accent);
+  }
+
+  .nav__itemL {
+    margin-left: 2.5rem;
+  }
+}
+
+/* Hide large-screen navbar at smaller screen sizes */
+@media (max-width: 1000px) {
+  .navL {
+    display: none;
+  }
 }
