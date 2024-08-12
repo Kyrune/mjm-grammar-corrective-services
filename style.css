@@ -7,31 +7,67 @@
 /**** Custom properties ****/
 
 :root {
-    --ff-backup: 'Roboto', sans-serif;
-    --ff-title: 'Special Elite', system-ui;
-    --ff-text: 'Cutive Mono', monospace;
+  --ff-backup: "Roboto", sans-serif;
+  --ff-title: "Special Elite", system-ui;
+  --ff-primary: "Cutive Mono", monospace;
 
-    --fw-reg: 400;
-    --fw-bold: 900;
+  --fw-reg: 400;
+  --fw-bold: 900;
 
-    --clr-light: #E5F2F8;
-    --clr-dark: #212121;
-    --clr-accent: #4AA1E0; 
+  --clr-light: #e5f2f8;
+  --clr-dark: #212121;
+  --clr-accent: #4aa1e0;
 
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
 
-    /* --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+  /* --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
     0.125em 0.125em 0.25em rgba(0,0,0,.15); */
 }
 
 @media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
+  }
+}
+
+/**** General styles ****/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  /* font-size: var(--fs-body); */
+  /* line-height: 1.6; */
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+section {
+  padding: 5em 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
