@@ -23,8 +23,8 @@
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
 
-  /* --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
-    0.125em 0.125em 0.25em rgba(0,0,0,.15); */
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {
@@ -122,28 +122,42 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-.section__title {
+/* .section__title {
   margin-bottom: 0.25em;
-}
+} */
 
 .section__title--intro {
+  font-family: var(--ff-title);
   font-weight: var(--fw-reg);
+  padding-bottom: 4rem;
 }
-.section__title--intro strong {
+/* .section__title--intro strong {
   display: block;
-}
+  } */
 
 .section__subtitle {
   margin: 0;
   font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro,
 .section__subtitle--about {
+  width: 100%;
+  font-size: var(--fs-body);
+  color: var(--clr-light);
+  background: var(--clr-dark);
+}
+
+.section__subtitle--intro {
   background: var(--clr-accent);
-  padding: 0.25em 1em;
-  font-family: var(--ff-secondary);
-  margin-bottom: 1em;
+  /* padding: 0.25em 1em; */
+  /* font-family: var(--ff-secondary); */
+  /* margin-bottom: 1em; */
+}
+
+/* Makes text in intro banner invisible */
+.filler {
+  opacity: 0;
+  cursor: default;
 }
 
 /**** Header ****/
@@ -301,52 +315,76 @@ header {
 
 /**** Intro section ****/
 
-.intro {
+/* .intro {
   position: relative;
-}
+} */
 
 .intro__img {
   box-shadow: var(--bs);
 }
 
-.section__subtitle--intro {
+/* .section__subtitle--intro {
   display: inline-block;
   font-size: 2rem;
-}
+} */
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   .section__subtitle--intro {
     font-size: 2rem;
   }
-}
+} */
 
 @media (min-width: 600px) {
   .intro {
-    display: grid;
-    width: min-content;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: min-content; */
     margin: 0 auto;
-    grid-column-gap: 1em;
+    /* grid-column-gap: 1em;
     grid-template-areas:
       "img title"
       "img subtitle";
-    grid-template-columns: min-content max-content;
+    grid-template-columns: min-content max-content; */
   }
 
   .intro__img {
-    grid-area: img;
-    min-width: 250px;
+    /* grid-area: img; */
+    max-width: 250px;
     position: relative;
+    right: 12rem;
     z-index: 2;
   }
 
-  .section__subtitle--intro {
-    align-self: start;
-    grid-column: -1 / 1;
-    grid-row: 2;
-    text-align: right;
+  .section__subtitle--about {
     position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
+    z-index: -2;
+  }
+
+  .off-center1 {
+    max-width: 388px;
+    padding: 2rem;
+    left: 7.5rem;
+    bottom: 9rem;
+  }
+
+  .off-center2 {
+    max-width: 500px;
+    padding: 2rem;
+    left: 4rem;
+    bottom: 11rem;
+  }
+
+  .section__subtitle--intro {
+    /* align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2; */
+    /* text-align: right; */
+    position: relative;
+    /* left: -1.5em; */
+    /* width: calc(100% + 1.5em); */
   }
 }
 
