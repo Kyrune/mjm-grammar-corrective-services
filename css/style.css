@@ -147,11 +147,9 @@ h3 {
   background: var(--clr-dark);
 }
 
-.section__subtitle--intro {
+.dots {
+  border-radius: 20px;
   background: var(--clr-accent);
-  /* padding: 0.25em 1em; */
-  /* font-family: var(--ff-secondary); */
-  /* margin-bottom: 1em; */
 }
 
 /* Makes text in intro banner invisible */
@@ -377,22 +375,54 @@ header {
     bottom: 11rem;
   }
 
-  .section__subtitle--intro {
+  .section__blue-banner--main {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+    height: 1rem;
+    top: 8rem;
+    left: 5.5rem;
     /* align-self: start;
     grid-column: -1 / 1;
     grid-row: 2; */
     /* text-align: right; */
-    position: relative;
     /* left: -1.5em; */
     /* width: calc(100% + 1.5em); */
   }
+
+  .section__blue-banner--dots1 {
+    position: relative;
+    width: 100%;
+    max-width: 16px;
+    height: 1rem;
+    top: 7rem;
+    left: 15rem;
+  }
+  .section__blue-banner--dots2 {
+    position: relative;
+    width: 100%;
+    max-width: 16px;
+    width: 100%;
+    height: 1rem;
+    top: 6rem;
+    left: 17rem;
+  }
+  .section__blue-banner--dots3 {
+    position: relative;
+    width: 100%;
+    max-width: 16px;
+    width: 100%;
+    height: 1rem;
+    top: 5rem;
+    left: 19rem;
+  }
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .section__subtitle--intro {
     font-size: var(--fs-h3);
   }
-}
+} */
 
 /* Footer */
 
