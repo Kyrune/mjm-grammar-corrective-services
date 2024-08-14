@@ -43,6 +43,9 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
@@ -161,6 +164,40 @@ h3 {
 /**** Header ****/
 
 header {
+  position: relative;
+  left: 17rem;
+  bottom: 30rem;
+  text-align: right;
+  width: 100%;
+  max-width: 300px;
+  z-index: -3;
+}
+
+.nav__listL {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.nav__itemL {
+  padding: 1rem;
+  background: var(--clr-accent);
+  font-family: var(--ff-title);
+  font-size: var(--fs-h3);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.nav__linkL {
+  color: var(--clr-dark);
+  text-decoration: none;
+}
+
+.item1 {
+  margin-bottom: 2rem;
+}
+
+/* header {
   display: flex;
   justify-content: space-between;
   padding: 1em;
@@ -205,11 +242,11 @@ header {
 
 .nav__link:hover {
   color: var(--clr-accent);
-}
+} */
 
 /**** Hamburger ****/
 
-.nav-toggle {
+/* .nav-toggle {
   padding: 0.5em;
   background: transparent;
   border: 0;
@@ -269,10 +306,10 @@ header {
 
 .hamburger::after {
   bottom: 6px;
-}
+} */
 
 /* Navbar on larger screens */
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .nav,
   .hamburger,
   .nav-toggle {
@@ -302,14 +339,14 @@ header {
   .nav__itemL {
     margin-left: 2.5rem;
   }
-}
+} */
 
 /* Hide large-screen navbar at smaller screen sizes */
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .navL {
     display: none;
   }
-}
+} */
 
 /**** Intro section ****/
 
@@ -352,7 +389,7 @@ header {
     /* grid-area: img; */
     max-width: 250px;
     position: relative;
-    right: 12rem;
+    right: 17rem;
     z-index: 2;
   }
 
@@ -364,14 +401,14 @@ header {
   .off-center1 {
     max-width: 388px;
     padding: 2rem;
-    left: 7.5rem;
+    left: 2.5rem;
     bottom: 9rem;
   }
 
   .off-center2 {
     max-width: 500px;
     padding: 2rem;
-    left: 4rem;
+    right: 1rem;
     bottom: 11rem;
   }
 
@@ -381,7 +418,7 @@ header {
     max-width: 260px;
     height: 1rem;
     top: 8rem;
-    left: 5.5rem;
+    left: 0.5rem;
     /* align-self: start;
     grid-column: -1 / 1;
     grid-row: 2; */
@@ -396,7 +433,7 @@ header {
     max-width: 16px;
     height: 1rem;
     top: 7rem;
-    left: 15rem;
+    left: 10rem;
   }
   .section__blue-banner--dots2 {
     position: relative;
@@ -405,7 +442,7 @@ header {
     width: 100%;
     height: 1rem;
     top: 6rem;
-    left: 17rem;
+    left: 12rem;
   }
   .section__blue-banner--dots3 {
     position: relative;
@@ -414,7 +451,7 @@ header {
     width: 100%;
     height: 1rem;
     top: 5rem;
-    left: 19rem;
+    left: 14rem;
   }
 }
 
