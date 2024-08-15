@@ -398,14 +398,14 @@ header {
     z-index: -2;
   }
 
-  .off-center1 {
+  .about__off-center1 {
     max-width: 388px;
     padding: 2rem;
     left: 2.5rem;
     bottom: 9rem;
   }
 
-  .off-center2 {
+  .about__off-center2 {
     max-width: 500px;
     padding: 2rem;
     right: 1rem;
