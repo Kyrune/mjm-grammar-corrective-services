@@ -143,7 +143,7 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-.section__subtitle--about {
+.subsection__about {
   width: 100%;
   font-size: var(--fs-body);
   color: var(--clr-light);
@@ -393,11 +393,12 @@ header {
     z-index: 2;
   }
 
-  .section__subtitle--about {
+  .subsection__about {
     position: relative;
     z-index: -2;
   }
 
+  /*  */
   .about__off-center1 {
     max-width: 388px;
     padding: 2rem;
