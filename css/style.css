@@ -347,6 +347,7 @@ header {
   cursor: default;
 }
 
+/* Top blue banner elements */
 .section__blue-banner--main1 {
   position: relative;
   width: 100%;
@@ -383,6 +384,7 @@ header {
   left: 14rem;
 }
 
+/* Bottom blue banner elements */
 .section__blue-banner--dots4 {
   position: relative;
   width: 100%;
