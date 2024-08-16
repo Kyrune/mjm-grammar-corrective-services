@@ -79,7 +79,7 @@ strong {
 .bg__img {
   position: relative;
   max-width: 100%;
-  top: -69.5rem;
+  top: -70rem;
   margin-right: 15%;
   margin-left: 15%;
   margin-bottom: -65rem;
@@ -133,6 +133,7 @@ h3 {
 }
 
 h1 {
+  font-family: var(--ff-title);
   font-size: var(--fs-h1);
 }
 
@@ -287,12 +288,10 @@ header {
 /**** Intro section **********************************************************************************************/
 
 .intro {
-  /* display: grid; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: min-content; */
   margin: 0 auto;
   padding-top: 4rem;
   /* grid-column-gap: 1em;
