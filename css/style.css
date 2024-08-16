@@ -76,7 +76,7 @@ strong {
   outline-offset: 3px;
 } */
 
-.bg-img {
+.bg__img {
   position: relative;
   max-width: 100%;
   top: -65rem;
@@ -88,12 +88,12 @@ strong {
   z-index: -10;
 }
 
-.title-div {
+.title__div {
   display: flex;
   justify-content: center;
 }
 
-.title-img {
+.title__img {
   width: 100%;
   max-width: 1100px;
   padding-top: 2rem;
