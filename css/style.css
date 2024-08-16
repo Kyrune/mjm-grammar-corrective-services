@@ -435,6 +435,7 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: -10rem;
+  padding-top: 8rem;
 }
 
 .subsection__services {
@@ -442,7 +443,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .subsection__service {
