@@ -47,7 +47,7 @@ body {
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  background: var(--clr-light);
+  background: var(--clr-dark);
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
