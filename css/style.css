@@ -296,11 +296,6 @@ header {
   align-items: center;
   margin: 0 auto;
   padding-top: 4rem;
-  /* grid-column-gap: 1em;
-  grid-template-areas:
-    "img title"
-    "img subtitle";
-  grid-template-columns: min-content max-content; */
 }
 
 .intro__img {
