@@ -449,7 +449,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2rem;
+  padding: 3rem;
   background: var(--clr-dark);
   color: var(--clr-light);
   box-shadow: var(--bs);
