@@ -46,6 +46,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: absolute;
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
@@ -66,14 +67,14 @@ body {
   }
 }
 
-section {
+/* section {
   padding: 5em 2em;
-}
+} */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
-}
+} */
 
 strong {
   font-weight: var(--fw-bold);
@@ -82,6 +83,18 @@ strong {
 :focus {
   outline: 3px solid var(--clr-accent);
   outline-offset: 3px;
+}
+
+.bg-img {
+  position: relative;
+  max-width: 100%;
+  top: -63rem;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: -63rem;
+  height: auto;
+  box-shadow: var(--bs);
+  z-index: -10;
 }
 
 /**** Buttons ******************************************************************************************************/
