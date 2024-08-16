@@ -45,6 +45,7 @@ html {
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   position: absolute;
   background: var(--clr-dark);
@@ -78,7 +79,8 @@ strong {
 
 .bg__img {
   position: relative;
-  max-width: 100%;
+  width: 100%;
+  max-width: 70%;
   top: -70rem;
   margin-right: 15%;
   margin-left: 15%;
@@ -430,6 +432,37 @@ header {
 } */
 
 /**** Services Section **********************************************************************************************/
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subsection__services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+
+.subsection__service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background: var(--clr-dark);
+  color: var(--clr-light);
+  box-shadow: var(--bs);
+}
+
+.service__miditem {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
 
 /**** Footer ********************************************************************************************************/
 
