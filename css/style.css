@@ -88,13 +88,19 @@ strong {
 .bg-img {
   position: relative;
   max-width: 100%;
-  top: -63rem;
+  top: -65rem;
   margin-right: 15%;
   margin-left: 15%;
-  margin-bottom: -63rem;
+  margin-bottom: -65rem;
   height: auto;
   box-shadow: var(--bs);
   z-index: -10;
+}
+
+.title-img {
+  width: 100%;
+  max-width: 1100px;
+  padding-top: 2rem;
 }
 
 /**** Buttons ******************************************************************************************************/
