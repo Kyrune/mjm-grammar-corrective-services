@@ -456,7 +456,18 @@ header {
 
 /**** How It Works Section ******************************************************************************************/
 
+.how-it-works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15rem;
+  padding-top: 8rem;
+}
 
+.subsection__works {
+
+}
 
 /**** Footer ********************************************************************************************************/
 
