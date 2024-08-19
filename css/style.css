@@ -454,7 +454,7 @@ header {
   padding: 3rem;
   background: var(--clr-dark);
   color: var(--clr-light);
-  box-shadow: var(--bs);
+  box-shadow: 10px 10px var(--clr-accent);
 }
 
 .service__miditem {
