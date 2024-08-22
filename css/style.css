@@ -310,12 +310,13 @@ header {
 /**** Intro section **********************************************************************************************/
 
 .intro {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .intro__img {
@@ -419,6 +420,7 @@ header {
 /**** Services Section **********************************************************************************************/
 
 .services {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -466,6 +468,7 @@ header {
 /**** How It Works Section ******************************************************************************************/
 
 .how-it-works {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
