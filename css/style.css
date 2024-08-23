@@ -413,27 +413,26 @@ header {
 }
 
 /* Bottom blue banner elements */
-/* .section__blue-banner--dots4 {
-  bottom: 21rem;
-  right: 20rem;
+.section__blue-banner--dots4 {
+  bottom: 36.5rem;
+  right: 3rem;
 }
 
 .section__blue-banner--dots5 {
-  bottom: 22rem;
-  right: 22rem;
+  bottom: 37.5rem;
 }
 
 .section__blue-banner--dots6 {
-  bottom: 23rem;
-  right: 24rem;
-} */
+  bottom: 38.5rem;
+  left: 3rem;
+}
 
 .section__blue-banner--main2 {
   width: 100%;
-  max-width: 260px;
+  max-width: 290px;
   height: 1rem;
-  /* bottom: 24rem;
-  right: 10.5rem; */
+  bottom: 39.5rem;
+  left: 6.5rem;
 }
 
 /* @media (min-width: 800px) {
