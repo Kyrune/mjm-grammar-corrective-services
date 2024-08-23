@@ -330,7 +330,8 @@ header {
   position: absolute;
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  top: 5rem;
+  right: 15rem;
 }
 
 .intro__img {
