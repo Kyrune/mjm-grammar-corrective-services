@@ -185,6 +185,7 @@ header {
   font-size: var(--fs-h3);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  box-shadow: inset 1.1em 0 0.75em -1em rgba(0,0,0,0.5);
 }
 
 .nav__linkL {
@@ -336,6 +337,7 @@ header {
   font-size: var(--fs-body);
   color: var(--clr-light);
   background: var(--clr-dark);
+  box-shadow: var(--bs);
   z-index: -2;
 }
 
