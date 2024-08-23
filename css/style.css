@@ -171,8 +171,8 @@ h3 {
 
 header {
   position: relative;
-  width: 220px;
-  left: 32rem;
+  width: 300px;
+  left: 27.8rem;
   bottom: 49.5rem;
   text-align: right;
 }
@@ -183,25 +183,30 @@ header {
   list-style: none;
 }
 
-.nav__itemL {
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+.nav__linkL {
+  padding-top: 1.3rem;
+  padding-right: 1.3rem;
+  padding-bottom: 1.3rem;
   background: var(--clr-accent);
   font-family: var(--ff-title);
   font-size: var(--fs-h3);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  color: var(--clr-dark);
+  text-decoration: none;
   box-shadow: inset 1.1em 0 0.75em -1em rgba(0,0,0,0.5);
 }
 
-.nav__linkL {
-  color: var(--clr-dark);
-  text-decoration: none;
+.item1 {
+  margin-bottom: 4rem;
 }
 
-.item1 {
-  margin-bottom: 2rem;
+.link1 {
+  padding-left: 4rem;
+}
+
+.link2 {
+  padding-left: 1.1rem;
 }
 
 /**** Hamburger ****/
