@@ -331,7 +331,6 @@ header {
 
 .about__subsection {
   position: relative;
-  width: 100%;
   right: 3rem;
   bottom: 14rem;
   font-size: var(--fs-body);
