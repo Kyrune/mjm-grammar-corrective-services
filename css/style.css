@@ -77,18 +77,12 @@ strong {
   outline-offset: 3px;
 } */
 
-/* .bg__img {
-  position: relative;
+.bg__imgs {
   width: 100%;
-  max-width: 70%;
-  top: -70rem;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin-bottom: -65rem;
+  max-width: 1200px;
   height: auto;
-  box-shadow: var(--bs);
   z-index: -10;
-} */
+}
 
 .title__div {
   display: flex;
@@ -316,13 +310,6 @@ header {
   align-items: center;
   margin: 0 auto;
   margin-top: 2rem;
-}
-
-.intro__bg {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-  z-index: -10;
 }
 
 .intro__subsection {
