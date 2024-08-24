@@ -336,7 +336,7 @@ header {
 .intro__img {
   position: relative;
   max-width: 250px;
-  right: 10.5rem;
+  right: 11rem;
   height: auto;
   box-shadow: var(--bs);
   z-index: 2;
