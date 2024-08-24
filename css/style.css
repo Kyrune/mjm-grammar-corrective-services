@@ -391,10 +391,10 @@ header {
 .section__blue-banner--main1 {
   /* position: relative; */
   width: 100%;
-  max-width: 290px;
+  max-width: 250px;
   height: 1rem;
   bottom: 12rem;
-  left: 7rem;
+  left: 9.5rem;
 }
 
 .section__blue-banner--dots1 {
@@ -429,7 +429,7 @@ header {
 
 .section__blue-banner--main2 {
   width: 100%;
-  max-width: 280px;
+  max-width: 240px;
   height: 1rem;
   bottom: 38.5rem;
   left: 6.5rem;
