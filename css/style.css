@@ -172,7 +172,7 @@ h3 {
 header {
   position: relative;
   width: 300px;
-  left: 27.8rem;
+  left: 25.3rem;
   bottom: 49rem;
   text-align: right;
 }
@@ -189,7 +189,7 @@ header {
   padding-bottom: 1.3rem;
   background: var(--clr-accent);
   font-family: var(--ff-title);
-  font-size: var(--fs-h3);
+  font-size: 1.05em;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   color: var(--clr-dark);
@@ -202,11 +202,11 @@ header {
 }
 
 .link1 {
-  padding-left: 4rem;
+  padding-left: 2.9rem;
 }
 
 .link2 {
-  padding-left: 1.1rem;
+  padding-left: .6rem;
 }
 
 /**** Hamburger ****/
@@ -330,7 +330,7 @@ header {
   display: flex;
   flex-direction: column;
   top: 5rem;
-  right: 18rem;
+  right: 16rem;
 }
 
 .intro__img {
@@ -360,7 +360,7 @@ header {
 
 /* Helps keep text About elements in place */
 .about__off-center1 {
-  left: 8rem;
+  left: 7.3rem;
 }
 
 /* Helps keep text About elements in place */
@@ -374,7 +374,7 @@ header {
   max-width: 200px;
   height: 200px;
   padding: 2rem;
-  left: 26.5rem;
+  left: 26.4rem;
   bottom: 22.4rem;
   background: #525658;
   box-shadow: var(--bs);
@@ -408,30 +408,30 @@ header {
 }
 
 .section__blue-banner--dots3 {
-  bottom: 15rem;
   left: 33.5rem;
+  bottom: 15rem;
 }
 
 /* Bottom blue banner elements */
 .section__blue-banner--dots4 {
-  bottom: 36.5rem;
   right: 3rem;
+  bottom: 35.5rem;
 }
 
 .section__blue-banner--dots5 {
-  bottom: 37.5rem;
+  bottom: 36.5rem;
 }
 
 .section__blue-banner--dots6 {
-  bottom: 38.5rem;
+  bottom: 37.5rem;
   left: 3rem;
 }
 
 .section__blue-banner--main2 {
   width: 100%;
-  max-width: 290px;
+  max-width: 280px;
   height: 1rem;
-  bottom: 39.5rem;
+  bottom: 38.5rem;
   left: 6.5rem;
 }
 
