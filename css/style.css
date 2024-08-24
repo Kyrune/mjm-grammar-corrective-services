@@ -450,13 +450,20 @@ header {
 /**** Services Section **********************************************************************************************/
 
 .services {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services__subsection {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: -10rem;
-  padding-top: 8rem;
+  bottom: 40rem;
 }
 
 .services__dots-container {
