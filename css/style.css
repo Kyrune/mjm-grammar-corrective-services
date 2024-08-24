@@ -86,6 +86,7 @@ strong {
 
 .title__div {
   display: flex;
+  width: 80%;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
@@ -94,6 +95,7 @@ strong {
 .logo__img {
   width: 100%;
   max-width: 250px;
+  height: auto;
 }
 
 .title__img {
@@ -101,7 +103,8 @@ strong {
   max-width: 600px;
   height: auto;
   max-height: 80px;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
+  margin-left: 3.5rem;
 }
 
 .section__subsection {
@@ -172,7 +175,7 @@ h3 {
 header {
   position: relative;
   width: 300px;
-  left: 25.3rem;
+  left: 25.5rem;
   bottom: 49rem;
   text-align: right;
 }
@@ -202,11 +205,11 @@ header {
 }
 
 .link1 {
-  padding-left: 2.9rem;
+  padding-left: 3.1rem;
 }
 
 .link2 {
-  padding-left: .6rem;
+  padding-left: .8rem;
 }
 
 /**** Hamburger ****/
@@ -330,7 +333,7 @@ header {
   display: flex;
   flex-direction: column;
   top: 5rem;
-  right: 16rem;
+  right: 17rem;
 }
 
 .intro__img {
