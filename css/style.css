@@ -48,7 +48,7 @@ body {
   align-items: center;
   flex-direction: column;
   /* position: absolute; */
-  background: var(--clr-dark);
+  background: #303030;
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
@@ -464,6 +464,10 @@ header {
   align-items: center;
   flex-direction: column;
   bottom: 40rem;
+}
+
+.services__title {
+  color: var(--clr-light);
 }
 
 .services__dots-container {
