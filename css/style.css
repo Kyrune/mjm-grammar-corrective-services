@@ -482,7 +482,7 @@ header {
   margin-top: 1.5rem;
 }
 
-.subsection__services {
+.subsection__service-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,14 +490,14 @@ header {
   padding-top: 4rem;
 }
 
-.subsection__service {
+.service__text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 3rem;
-  background: var(--clr-dark);
-  color: var(--clr-light);
+  padding: 2rem;
+  background: var(--clr-light);
+  color: var(--clr-dark);
   box-shadow: 10px 10px var(--clr-accent);
 }
 
