@@ -364,6 +364,11 @@ header {
   padding: 2rem;
 }
 
+.about__link {
+  text-decoration: none;
+  color: var(--clr-accent);
+}
+
 /* Helps keep text About elements in place */
 .about__off-center1 {
   left: 7.5rem;
