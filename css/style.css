@@ -9,9 +9,10 @@
 :root {
   --ff-backup: "Roboto", sans-serif;
   --ff-title: "Special Elite", system-ui;
-  --ff-primary: "Cutive Mono", monospace;
+  /* --ff-primary: "Cutive Mono", monospace; */
+  --ff-primary: "Merriweather", serif;
 
-  --fw-reg: 400;
+  --fw-reg: 300;
   --fw-bold: 900;
 
   --clr-light: #eff8fc;
@@ -53,6 +54,7 @@ body {
   margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
+  font-weight: var(--f);
   line-height: 1.6;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -176,7 +178,7 @@ header {
   position: relative;
   width: 300px;
   left: 25.5rem;
-  bottom: 49rem;
+  bottom: 48rem;
   text-align: right;
 }
 
@@ -193,6 +195,7 @@ header {
   background: var(--clr-accent);
   font-family: var(--ff-title);
   font-size: 1.05em;
+  font-weight: var(--fw-bold);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   color: var(--clr-dark);
@@ -422,15 +425,15 @@ header {
 /* Bottom blue banner elements */
 .section__blue-banner--dots4 {
   right: 3rem;
-  bottom: 35.5rem;
+  bottom: 35.8rem;
 }
 
 .section__blue-banner--dots5 {
-  bottom: 36.5rem;
+  bottom: 36.8rem;
 }
 
 .section__blue-banner--dots6 {
-  bottom: 37.5rem;
+  bottom: 37.8rem;
   left: 3rem;
 }
 
@@ -438,7 +441,7 @@ header {
   width: 100%;
   max-width: 240px;
   height: 1rem;
-  bottom: 38.5rem;
+  bottom: 38.8rem;
   left: 6.5rem;
 }
 
