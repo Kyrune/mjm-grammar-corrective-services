@@ -380,6 +380,10 @@ header {
   left: 26.4rem;
   bottom: 22.4rem;
   background: #525658;
+  background-image: url(../images/tiny-square.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
   box-shadow: var(--bs);
   z-index: -3;
 }
