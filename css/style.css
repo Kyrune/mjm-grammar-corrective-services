@@ -623,7 +623,7 @@ header {
 
 /**** How It Works Section ******************************************************************************************/
 
-.how-it-works {
+.info {
   position: relative;
   display: flex;
   justify-content: center;
@@ -638,7 +638,7 @@ header {
   /* padding-top: 8rem; */
 }
 
-.subsection__works {
+.subsection__info {
   /* position: relative; */
   display: flex;
   justify-content: center;
@@ -651,7 +651,7 @@ header {
   margin-bottom: -2.1rem; */
 }
 
-.works__steps {
+.info__steps {
   position: relative;
   display: flex;
   justify-content: center;
@@ -663,7 +663,7 @@ header {
   /* padding: 5rem; */
 }
 
-.works__h3 {
+.info__h3 {
   /* padding-top: 13.3rem;
   padding-right: 10rem;
   padding-left: 10rem;
@@ -678,7 +678,7 @@ header {
   /* border: 1px solid white; */
 }
 
-.works__text {
+.info__text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -686,7 +686,7 @@ header {
   background: var(--clr-light);
 }
 
-.works__p {
+.info__p {
   padding: 3rem;
   /* padding: 5rem;
   width: 100%;
@@ -696,7 +696,7 @@ header {
   background: var(--clr-light);
 }
 
-/* .works__bottom-line {
+/* .info__bottom-line {
   border-bottom: 5px;
   border-color: var(--clr-dark);
 } */
