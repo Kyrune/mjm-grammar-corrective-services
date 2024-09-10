@@ -227,6 +227,7 @@ header {
   animation-name: slide1;
   animation-timing-function: ease;
   animation-direction: alternate-reverse;
+  animation-delay: 2s;
 }
 
 @keyframes slide1 {
@@ -234,6 +235,24 @@ header {
   25% { transform: translateX(0); }
   50% { transform: translateX(10px); }
   75% { transform: translateX(20px); }
+  100% { transform: translateX(0); }
+}
+
+.slide2 {
+  transform-origin: left;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: slide2;
+  animation-timing-function: ease;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes slide2 {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(10px); }
+  40% { transform: translateX(20px); }
+  60% { transform: translateX(10px); }
+  80% { transform: translateX(15px); }
   100% { transform: translateX(0); }
 }
 
