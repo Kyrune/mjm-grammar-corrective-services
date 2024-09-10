@@ -130,6 +130,31 @@ strong {
   background: #525658;
 }
 
+.banner1 {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.banner2 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.div-banner-center {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.span-banner-center {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  border-radius: 20px;
+  background: var(--clr-accent);
+}
+
 /**** Buttons ******************************************************************************************************/
 
 .btn {
