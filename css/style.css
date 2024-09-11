@@ -686,16 +686,7 @@ header {
   font-size: var(--fs-body);
   color: var(--clr-dark);
   border-top: 2px solid var(--clr-dark);
-  /* background: var(--clr-light); */
 }
-
-/* .info__bottom-line {
-  border-bottom: 2px solid var(--clr-accent);
-} */
-
-/* .padding-top {
-  padding-top: 2rem;
-} */
 
 /**** Footer ********************************************************************************************************/
 
