@@ -657,7 +657,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 2rem;
-  color: var(--clr-light);
+  color: var(--clr-accent);
   background: var(--clr-dark);
   margin-bottom: -1.2rem;
   width: 50%;
