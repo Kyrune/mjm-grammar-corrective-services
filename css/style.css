@@ -7,9 +7,7 @@
 /**** Custom properties *********************************************************************************************/
 
 :root {
-  --ff-backup: "Roboto", sans-serif;
   --ff-title: "Special Elite", system-ui;
-  /* --ff-primary: "Cutive Mono", monospace; */
   --ff-primary: "Merriweather", serif;
 
   --fw-reg: 300;
