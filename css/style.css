@@ -123,6 +123,14 @@ strong {
   background: var(--clr-accent);
 }
 
+.div__banner-subsection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+}
+
 .div__banner {
   width: 100%;
   max-width: 1200px;
