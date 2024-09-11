@@ -525,15 +525,15 @@ header {
 /* Bottom blue banner elements */
 .section__blue-banner--dots4 {
   right: 3rem;
-  bottom: 35.8rem;
+  bottom: 37.5rem;
 }
 
 .section__blue-banner--dots5 {
-  bottom: 36.8rem;
+  bottom: 38.5rem;
 }
 
 .section__blue-banner--dots6 {
-  bottom: 37.8rem;
+  bottom: 39.5rem;
   left: 3rem;
 }
 
@@ -541,7 +541,7 @@ header {
   width: 100%;
   max-width: 240px;
   height: 1rem;
-  bottom: 38.8rem;
+  bottom: 40.5rem;
   left: 6.5rem;
 }
 
