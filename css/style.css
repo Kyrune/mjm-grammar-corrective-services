@@ -693,7 +693,7 @@ header {
 
 .footer {
   width: 100%;
-  /* margin-top: 1.4rem; */
+  margin-top: -68.5rem;
   background: #111;
   color: var(--clr-accent);
   text-align: center;
