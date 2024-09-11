@@ -124,11 +124,16 @@ strong {
 }
 
 .div__banner-subsection {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100%;
   max-width: 1200px;
+}
+
+.div__banner-position {
+  bottom: 68.5rem;
 }
 
 .div__banner {
