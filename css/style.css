@@ -642,6 +642,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  bottom: 68.5rem;
   width: 1400px;
   padding-top: 7rem;
   background: var(--clr-light);
