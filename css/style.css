@@ -123,6 +123,8 @@ strong {
   background: var(--clr-accent);
 }
 
+/**** Divider Banners Section ***********************************************************/
+
 .div__banner-subsection {
   position: relative;
   display: flex;
@@ -143,16 +145,6 @@ strong {
   background: #525658;
 }
 
-.banner1 {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.banner2 {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
 .div__banner-center {
   display: flex;
   justify-content: space-between;
@@ -166,6 +158,16 @@ strong {
   height: 20px;
   border-radius: 20px;
   background: var(--clr-accent);
+}
+
+.banner1 {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.banner2 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 /**** Buttons ******************************************************************************************************/
