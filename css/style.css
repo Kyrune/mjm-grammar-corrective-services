@@ -123,7 +123,7 @@ strong {
   background: var(--clr-accent);
 }
 
-.div-banner {
+.div__banner {
   width: 100%;
   max-width: 1200px;
   height: 35px;
@@ -140,14 +140,14 @@ strong {
   border-top-right-radius: 20px;
 }
 
-.div-banner-center {
+.div__banner-center {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1000px;
 }
 
-.span-banner-center {
+.blue-banner-center {
   position: relative;
   width: 200px;
   height: 20px;
