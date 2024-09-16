@@ -615,7 +615,8 @@ header {
   align-items: center;
   flex-direction: column;
   padding: 2.5rem;
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   background: var(--clr-light);
   color: var(--clr-dark);
   box-shadow: 10px 10px var(--clr-accent);
@@ -810,7 +811,16 @@ header {
   }
 
   .service__text {
+    border-top: 2px solid var(--clr-accent);
+    border-bottom: 2px solid var(--clr-accent);
     box-shadow: none;
+  }
+
+  .service__miditem {
+    margin-top: 4rem;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 4rem;
   }
 
   .info {
@@ -837,5 +847,15 @@ header {
   .title__img {
     margin-left: 0;
     max-width: 200px;
+  }
+
+  .services__dots-container {
+    justify-content: center;
+    max-width: 200px;
+  }
+
+  .services__subtitle {
+    max-width: 300px;
+    text-align: justify;
   }
 }
