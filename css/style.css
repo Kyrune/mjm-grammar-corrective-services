@@ -814,7 +814,8 @@ header {
 
   .introS__subsection {
     position: relative;
-    bottom: 43rem;
+    padding-top: 2rem;
+    /* bottom: 44em; */
   }
 
   .services__subsection {
@@ -869,15 +870,22 @@ header {
   }
 
   /**** Intro Mobile Section *****************************************************************************************/
+  .introS__subsection {
+    padding-bottom: 2rem;
+    background-image: url(../images/bg-intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: bottom 10px; */
+  }
+
   .introS__img {
     width: 100%;
-    max-width: 50%;
+    max-width: 200px;
     box-shadow: var(--bs);
   }
 
   .aboutS__subsection {
-    position: relative;
-    bottom: 3rem;
+    margin-top: -3em;
     padding-top: 4rem;
     color: var(--clr-light);
     background: var(--clr-dark);
