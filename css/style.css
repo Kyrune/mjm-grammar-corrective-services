@@ -871,7 +871,7 @@ header {
 
   /**** Intro Mobile Section *****************************************************************************************/
   .introS__subsection {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     background-image: url(../images/bg-intro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
