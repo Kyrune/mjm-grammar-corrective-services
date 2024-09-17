@@ -768,6 +768,12 @@ header {
 
 /**** Media Queries **************************************************************************************************************/
 
+@media (min-width: 1401px) {
+  .imgS {
+    display: none;
+  }
+}
+
 /* Large Screens */
 @media (max-width: 1400px) {
   .intro__subsection
@@ -785,6 +791,10 @@ header {
 }
 
 @media (max-width: 1400px) {
+  .imgL {
+    display: none;
+  }
+
   .title__div {
     width: 100%;
   }
