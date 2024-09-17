@@ -772,6 +772,10 @@ header {
   .imgS {
     display: none;
   }
+
+  .introS__subsection {
+    display: none;
+  }
 }
 
 /* Large Screens */
@@ -857,6 +861,11 @@ header {
   .title__img {
     margin-left: 0;
     max-width: 200px;
+  }
+
+  .introS__img {
+    width: 100%;
+    max-width: 50%;
   }
 
   .services__dots-container {
