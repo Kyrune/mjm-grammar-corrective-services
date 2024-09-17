@@ -872,6 +872,23 @@ header {
   .introS__img {
     width: 100%;
     max-width: 50%;
+    box-shadow: var(--bs);
+  }
+
+  .aboutS__subsection {
+    position: relative;
+    bottom: 3rem;
+    padding-top: 4rem;
+    color: var(--clr-light);
+    background: var(--clr-dark);
+    box-shadow: var(--bs);
+    z-index: -1;
+  }
+
+  .aboutS__text {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
   }
 
   /**** Services Mobile Section **************************************************************************************/
