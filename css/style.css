@@ -868,11 +868,13 @@ header {
     max-width: 200px;
   }
 
+  /**** Intro Mobile Section *****************************************************************************************/
   .introS__img {
     width: 100%;
     max-width: 50%;
   }
 
+  /**** Services Mobile Section **************************************************************************************/
   .services__dots-container {
     justify-content: center;
     max-width: 200px;
