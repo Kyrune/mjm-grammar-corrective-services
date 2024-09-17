@@ -812,6 +812,11 @@ header {
     height: auto;
   } */
 
+  .introS__subsection {
+    position: relative;
+    bottom: 43rem;
+  }
+
   .services__subsection {
     bottom: 0;
   }
