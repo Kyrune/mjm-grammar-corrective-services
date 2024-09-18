@@ -541,21 +541,6 @@ header {
   left: 9.5rem; */
 }
 
-.blue-element--dot1 {
-  /* bottom: 13rem;
-  left: 27.5rem; */
-}
-
-.blue-element--dot2 {
-  /* bottom: 14rem;
-  left: 30.5rem; */
-}
-
-.blue-element--dot3 {
-  /* left: 33.5rem;
-  bottom: 15rem; */
-}
-
 /* Bottom blue elements */
 .subsection__blue-elements--bottom {
   position: relative;
@@ -564,20 +549,6 @@ header {
   width: 450px;
   top: -15em;
   margin-right: 10em;
-}
-
-.blue-element--dot4 {
-  /* right: 3rem;
-  bottom: 37.5rem; */
-}
-
-.blue-element--dot5 {
-  /* bottom: 38.5rem; */
-}
-
-.blue-element--dot6 {
-  /* bottom: 39.5rem;
-  left: 3rem; */
 }
 
 .blue-element--main2 {
