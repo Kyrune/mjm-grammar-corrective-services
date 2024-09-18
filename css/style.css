@@ -429,6 +429,8 @@ header {
   align-items: center;
   margin: 0 auto;
   margin-top: 2rem;
+  width: 100%;
+  max-width: 100%;
 }
 
 .intro__subsection {
@@ -437,6 +439,8 @@ header {
   flex-direction: column;
   top: 5rem;
   /* right: 23rem; */
+  width: 100%;
+  max-width: 75%;
   padding-bottom: 3rem;
   background-image: url(../images/bg-intro.jpg);
   background-size: cover;
