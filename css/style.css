@@ -217,9 +217,11 @@ h3 {
 
 header {
   position: relative;
+  top: -24em;
+  margin-left: 108em;
   width: 100%;
-  left: 32rem;
-  bottom: 48rem;
+  /* left: 32rem;
+  bottom: 48rem; */
   text-align: right;
 }
 
@@ -447,7 +449,7 @@ header {
   background-image: url(../images/bg-intro.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
 }
 
 .intro__img {
