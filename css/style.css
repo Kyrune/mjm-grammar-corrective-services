@@ -527,15 +527,15 @@ header {
   position: relative;
   display: flex;
   justify-content: space-around;
-  width: 400px;
+  width: 450px;
   top: -6em;
-  margin-left: 12.5em;
+  margin-left: 10em;
 }
 
 .blue-element--main1 {
   /* position: relative; */
-  width: 250px;
-  max-width: 250px;
+  width: 300px;
+  max-width: 300px;
   height: 1rem;
   /* bottom: 12rem;
   left: 9.5rem; */
@@ -559,6 +559,11 @@ header {
 /* Bottom blue elements */
 .subsection__blue-elements--bottom {
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+  top: -15em;
+  margin-right: 10em;
 }
 
 .blue-element--dot4 {
@@ -576,8 +581,8 @@ header {
 }
 
 .blue-element--main2 {
-  width: 100%;
-  max-width: 240px;
+  width: 300;
+  max-width: 300px;
   height: 1rem;
   /* bottom: 40.5rem;
   left: 6.5rem; */
