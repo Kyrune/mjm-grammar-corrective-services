@@ -522,6 +522,13 @@ header {
   cursor: default;
 }
 
+/* Longer blue element */
+.blue-element--main {
+  width: 300px;
+  max-width: 300px;
+  height: 1rem;
+}
+
 /* Top blue elements */
 .subsection__blue-elements--top {
   position: relative;
@@ -532,15 +539,6 @@ header {
   margin-left: 10em;
 }
 
-.blue-element--main1 {
-  /* position: relative; */
-  width: 300px;
-  max-width: 300px;
-  height: 1rem;
-  /* bottom: 12rem;
-  left: 9.5rem; */
-}
-
 /* Bottom blue elements */
 .subsection__blue-elements--bottom {
   position: relative;
@@ -549,14 +547,6 @@ header {
   width: 450px;
   top: -15em;
   margin-right: 10em;
-}
-
-.blue-element--main2 {
-  width: 300;
-  max-width: 300px;
-  height: 1rem;
-  /* bottom: 40.5rem;
-  left: 6.5rem; */
 }
 
 /* @media (min-width: 800px) {
