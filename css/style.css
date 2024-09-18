@@ -522,52 +522,56 @@ header {
   cursor: default;
 }
 
-/* Top blue banner elements */
-.section__blue-banner--main1 {
+.subsection__blue-elements--bottom {
+  position: relative;
+}
+
+/* Top blue elements */
+.blue-element--main1 {
   /* position: relative; */
   width: 100%;
   max-width: 250px;
   height: 1rem;
-  bottom: 12rem;
-  left: 9.5rem;
+  /* bottom: 12rem;
+  left: 9.5rem; */
 }
 
-.section__blue-banner--dots1 {
-  bottom: 13rem;
-  left: 27.5rem;
+.blue-element--dot1 {
+  /* bottom: 13rem;
+  left: 27.5rem; */
 }
 
-.section__blue-banner--dots2 {
-  bottom: 14rem;
-  left: 30.5rem;
+.blue-element--dot2 {
+  /* bottom: 14rem;
+  left: 30.5rem; */
 }
 
-.section__blue-banner--dots3 {
-  left: 33.5rem;
-  bottom: 15rem;
+.blue-element--dot3 {
+  /* left: 33.5rem;
+  bottom: 15rem; */
 }
 
-/* Bottom blue banner elements */
-.section__blue-banner--dots4 {
-  right: 3rem;
-  bottom: 37.5rem;
+/* Bottom blue elements */
+.blue-element--dot4 {
+  /* right: 3rem;
+  bottom: 37.5rem; */
 }
 
-.section__blue-banner--dots5 {
-  bottom: 38.5rem;
+.blue-element--dot5 {
+  /* bottom: 38.5rem; */
 }
 
-.section__blue-banner--dots6 {
-  bottom: 39.5rem;
-  left: 3rem;
+.blue-element--dot6 {
+  /* bottom: 39.5rem;
+  left: 3rem; */
 }
 
-.section__blue-banner--main2 {
+.blue-element--main2 {
   width: 100%;
   max-width: 240px;
   height: 1rem;
-  bottom: 40.5rem;
-  left: 6.5rem;
+  /* bottom: 40.5rem;
+  left: 6.5rem; */
 }
 
 /* @media (min-width: 800px) {
