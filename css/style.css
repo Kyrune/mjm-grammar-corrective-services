@@ -248,6 +248,7 @@ header {
   border-bottom-right-radius: 20px;
   color: var(--clr-dark);
   text-decoration: none;
+  z-index: 4;
   /* box-shadow: inset 1.1em 0 0.75em -1em rgba(0,0,0,0.5); */
 }
 
@@ -259,7 +260,7 @@ header {
   top: 0;
   right: 15rem;
   background: var(--clr-accent);
-  z-index: -5;
+  z-index: 3;
 }
 
 /* Animation for Services btn */
@@ -431,11 +432,16 @@ header {
 }
 
 .intro__subsection {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   top: 5rem;
-  right: 23rem;
+  /* right: 23rem; */
+  padding-bottom: 3rem;
+  background-image: url(../images/bg-intro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .intro__img {
@@ -444,7 +450,7 @@ header {
   right: 11rem;
   height: auto;
   box-shadow: var(--bs);
-  z-index: 2;
+  z-index: 10;
 }
 
 .about__subsection {
@@ -455,6 +461,7 @@ header {
   color: var(--clr-light);
   background: var(--clr-dark);
   box-shadow: var(--bs);
+  z-index: 4;
 }
 
 .about__text {
@@ -491,7 +498,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: var(--bs);
-  z-index: -3;
+  z-index: 2;
 }
 
 /* Makes text in blue intro banner invisible */
