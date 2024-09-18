@@ -434,14 +434,16 @@ header {
 }
 
 .intro__subsection {
-  /* position: absolute; */
+  position: relative;
   display: flex;
   flex-direction: column;
-  top: 5rem;
+  justify-content: center;
+  align-items: center;
+  /* top: 5rem; */
   /* right: 23rem; */
   width: 100%;
   max-width: 75%;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
   background-image: url(../images/bg-intro.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -450,8 +452,9 @@ header {
 
 .intro__img {
   position: relative;
+  top: 8rem;
+  margin-right: 34em;
   max-width: 250px;
-  right: 11rem;
   height: auto;
   box-shadow: var(--bs);
   z-index: 10;
@@ -459,8 +462,12 @@ header {
 
 .about__subsection {
   position: relative;
-  right: 3rem;
-  bottom: 14rem;
+  display: flex;
+  flex-direction: column;
+  /* right: 3rem; */
+  /* bottom: 14rem; */
+  margin-top: -5em;
+  width: 600px;
   font-size: var(--fs-body);
   color: var(--clr-light);
   background: var(--clr-dark);
@@ -491,11 +498,14 @@ header {
 /* Helps keep About element (gray square) in place */
 .about__off-center3 {
   position: relative;
-  max-width: 200px;
+  margin-top: -6em;
+  margin-left: 32em;
+  width: 200px;
+  /* max-width: 200px; */
   height: 200px;
   padding: 2rem;
-  left: 26.4rem;
-  bottom: 22.4rem;
+  /* left: 26.4rem; */
+  /* bottom: 22.4rem; */
   background: #525658;
   background-image: url(../images/tiny-square.jpg);
   background-size: auto;
