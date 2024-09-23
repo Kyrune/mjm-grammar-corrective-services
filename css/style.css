@@ -780,6 +780,10 @@ header {
   .introS__subsection {
     display: none;
   }
+
+  .headerS {
+    display: none;
+  }
 }
 
 /**** Medium Screens Only ****/
