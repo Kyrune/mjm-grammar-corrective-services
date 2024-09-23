@@ -797,9 +797,7 @@ header {
   .bg__imgs {
     max-width: 100%;
   }
-}
 
-@media (max-width: 1400px) {
   .imgL {
     display: none;
   }
