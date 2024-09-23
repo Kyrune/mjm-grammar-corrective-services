@@ -782,6 +782,10 @@ header {
 
 /* Medium Screens */
 @media (max-width: 1500px) and (min-width: 801px) {
+  .introS__subsection {
+    padding-top: 4rem;
+  }
+
   .introS__img {
     width: 100%;
     max-width: 30%;
@@ -808,7 +812,9 @@ header {
 
   .introS__subsection {
     position: relative;
-    padding-top: 3rem;
+    background-image: url(../images/bg-intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .services__subsection {
@@ -860,10 +866,8 @@ header {
 
   /**** Intro Mobile Section *****************************************************************************************/
   .introS__subsection {
+    padding-top: 3rem;
     padding-bottom: 3rem;
-    background-image: url(../images/bg-intro.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .introS__img {
