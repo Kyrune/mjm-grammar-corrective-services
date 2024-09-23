@@ -914,8 +914,9 @@ header {
   .headerS {
     position: relative;
     top: -35em;
-    margin-left: 17em;
+    margin-left: 5em;
     width: 100%;
+    max-width: 50%;
     text-align: right;
   }
   
