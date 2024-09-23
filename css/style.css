@@ -769,7 +769,7 @@ header {
 
 /**** Media Queries **************************************************************************************************************/
 
-/* Large Screens */
+/**** Large Screens ****/
 @media (min-width: 1401px) {
   .imgS {
     display: none;
@@ -780,7 +780,7 @@ header {
   }
 }
 
-/* Medium Screens */
+/**** Medium Screens ****/
 @media (max-width: 1500px) and (min-width: 801px) {
   .introS__subsection {
     padding-top: 4rem;
@@ -793,7 +793,7 @@ header {
   }
 }
 
-/* Medium/Small Screens */
+/**** Medium/Small Screens ****/
 @media (max-width: 1500px) {
   .intro__subsection {
     display: none;
@@ -853,7 +853,7 @@ header {
   }
 }
 
-/* Small Screens */
+/**** Small Screens ****/
 
 @media (max-width: 800px) {
   .logo__img {
@@ -865,7 +865,7 @@ header {
     max-width: 200px;
   }
 
-  /**** Intro Mobile Section *****************************************************************************************/
+  /**** Intro Mobile Section *****************/
   .introS__subsection {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -892,7 +892,7 @@ header {
     padding-bottom: 2rem;
   }
 
-  /**** Services Mobile Section **************************************************************************************/
+  /**** Services Mobile Section *********************/
   .services__dots-container {
     justify-content: center;
     max-width: 200px;
