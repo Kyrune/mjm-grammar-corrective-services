@@ -839,6 +839,7 @@ header {
   }
 
   .img-headerS__subsection {
+    position: relative;
     display: flex;
   }
 
@@ -986,8 +987,8 @@ header {
 
   /**** Header for Mobile ****/
   .headerS {
-    top: -35em;
-    margin-left: 5em;
+    top: 1em;
+    margin-left: -4em;
   }
   
   /* Fills gap between about text box and header */
