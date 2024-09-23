@@ -303,16 +303,16 @@ header {
   100% { transform: translateX(0); }
 }
 
-.item1 {
+.itemL1 {
   margin-bottom: 1rem;
 }
 
-.link1 {
+.linkL1 {
   padding-left: .5rem;
   margin-left: 2rem;
 }
 
-.link2 {
+.linkL2 {
   padding-left: 3rem;
   margin-left: 2rem;
 }
@@ -904,6 +904,69 @@ header {
     padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 2rem;
+  }
+
+  /**** Header for Mobile ****/
+  .headerS {
+    position: relative;
+    top: -41em;
+    margin-left: 10em;
+    width: 100%;
+    text-align: right;
+  }
+  
+  .nav__listS {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  .nav__itemS {
+    display: flex;
+  }
+  
+  .nav__linkS {
+    position: relative;
+    align-self: flex-end;
+    padding-top: 0.7rem;
+    padding-right: 0.7rem;
+    padding-bottom: 0.7rem;
+    background: var(--clr-accent);
+    font-family: var(--ff-title);
+    font-size: 0.7em;
+    font-weight: var(--fw-bold);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: var(--clr-dark);
+    text-decoration: none;
+    z-index: 4;
+  }
+  
+  /* Fills gap between about text box and header */
+  .nav__underitemS {
+    position: relative;
+    width: 100px;
+    padding: 0.7rem;
+    top: 0;
+    right: 10em;
+    font-size: 0.7em;
+    background: var(--clr-accent);
+    z-index: 3;
+  }
+
+  .itemS1 {
+    margin-bottom: 1rem;
+  }
+  
+  .linkS1 {
+    padding-left: .5rem;
+    margin-left: 2rem;
+  }
+  
+  .linkS2 {
+    padding-left: 2rem;
+    margin-left: 2rem;
   }
 
   /**** Services Mobile Section *********************/
