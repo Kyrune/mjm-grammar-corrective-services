@@ -793,6 +793,7 @@ header {
   }
 }
 
+/* Medium/Small Screens */
 @media (max-width: 1500px) {
   .intro__subsection {
     display: none;
