@@ -849,10 +849,6 @@ header {
 /* Small Screens */
 
 @media (max-width: 800px) {
-  /* .title__div {
-    flex-direction: column;
-  } */
-
   .logo__img {
     max-width: 100px;
   }
@@ -868,7 +864,6 @@ header {
     background-image: url(../images/bg-intro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: bottom 10px; */
   }
 
   .introS__img {
