@@ -782,7 +782,7 @@ header {
   }
 }
 
-/**** Medium Screens ****/
+/**** Medium Screens Only ****/
 
 @media (max-width: 1500px) and (min-width: 801px) {
   .introS__subsection {
