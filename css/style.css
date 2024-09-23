@@ -772,6 +772,7 @@ header {
 /**** Large Screens ****/
 
 @media (min-width: 1401px) {
+  /* Remove Small (mobile) elements on Larger screen */
   .imgS {
     display: none;
   }
@@ -798,10 +799,12 @@ header {
 /**** Medium/Small Screens ****/
 
 @media (max-width: 1500px) {
+  /* Remove intro section on smaller screens */
   .intro__subsection {
     display: none;
   }
 
+  /**** General Medium/Small Section****/
   .bg__imgs {
     max-width: 100%;
   }
@@ -814,6 +817,7 @@ header {
     bottom: 0;
   }
 
+  /**** Intro Medium/Small Section *****************/
   .introS__subsection {
     position: relative;
     background-image: url(../images/bg-intro.jpg);
@@ -821,6 +825,7 @@ header {
     background-repeat: no-repeat;
   }
 
+  /**** Services Medium/Small Section ***************/
   .services__subsection {
     bottom: 0;
   }
@@ -846,11 +851,13 @@ header {
     margin-bottom: 4rem;
   }
 
+  /**** Info Medium/Small section ****************/
   .info {
     width: 100%;
     bottom: 0;
   }
 
+  /**** Footer Medium/Small Section **************/
   .footer {
     margin-top: 0;
   }
