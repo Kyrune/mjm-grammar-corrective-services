@@ -806,15 +806,9 @@ header {
     bottom: 0;
   }
 
-  /* .intro {
-    width: 100%;
-    height: auto;
-  } */
-
   .introS__subsection {
     position: relative;
     padding-top: 3rem;
-    /* bottom: 44em; */
   }
 
   .services__subsection {
