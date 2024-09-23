@@ -771,7 +771,7 @@ header {
 
 /**** Large Screens ****/
 
-@media (min-width: 1401px) {
+@media (min-width: 1501px) {
   /* Remove Small (mobile) elements on Larger screen */
   .imgS {
     display: none;
