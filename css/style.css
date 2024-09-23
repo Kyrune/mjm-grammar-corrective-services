@@ -769,6 +769,7 @@ header {
 
 /**** Media Queries **************************************************************************************************************/
 
+/* Large Screens */
 @media (min-width: 1401px) {
   .imgS {
     display: none;
@@ -779,21 +780,16 @@ header {
   }
 }
 
-/* Large Screens */
-@media (max-width: 1400px) {
-  .intro__subsection
-  {
-    display: none;
-  }
-}
-
 /* Medium Screens */
-
 @media (max-width: 1500px) and (min-width: 801px) {
 
 }
 
 @media (max-width: 1500px) {
+  .intro__subsection {
+    display: none;
+  }
+
   .bg__imgs {
     max-width: 100%;
   }
