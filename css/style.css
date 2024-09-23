@@ -769,7 +769,7 @@ header {
 
 /**** Media Queries **************************************************************************************************************/
 
-/**** Large Screens ****/
+/**** Large Screens **************************************/
 
 @media (min-width: 1501px) {
   /* Remove Small (mobile) elements on Larger screen */
@@ -786,7 +786,7 @@ header {
   }
 }
 
-/**** Medium Screens Only ****/
+/**** Medium Screens Only ********************************/
 
 @media (max-width: 1500px) and (min-width: 801px) {
   .introS__subsection {
@@ -809,7 +809,7 @@ header {
   }
 }
 
-/**** Medium/Small Screens ****/
+/**** Medium/Small Screens *******************************/
 
 @media (max-width: 1500px) {
   /* Remove intro section on smaller screens */
@@ -830,7 +830,7 @@ header {
     bottom: 0;
   }
 
-  /**** Intro Medium/Small Section *****************/
+  /**** Intro Medium/Small Section ****/
   .introS__subsection {
     position: relative;
     background-image: url(../images/bg-intro.jpg);
@@ -899,7 +899,7 @@ header {
     z-index: 3;
   }
 
-  /**** Services Medium/Small Section ***************/
+  /**** Services Medium/Small Section ****/
   .services__subsection {
     bottom: 0;
   }
@@ -925,19 +925,19 @@ header {
     margin-bottom: 4rem;
   }
 
-  /**** Info Medium/Small section ****************/
+  /**** Info Medium/Small section ****/
   .info {
     width: 100%;
     bottom: 0;
   }
 
-  /**** Footer Medium/Small Section **************/
+  /**** Footer Medium/Small Section ****/
   .footer {
     margin-top: 0;
   }
 }
 
-/**** Small Screens ****/
+/**** Small Screens ********************************/
 
 @media (max-width: 800px) {
   .logo__img {
@@ -949,7 +949,7 @@ header {
     max-width: 200px;
   }
 
-  /**** Intro Mobile Section *****************/
+  /**** Intro Mobile Section ****/
   .introS__subsection {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -1005,7 +1005,7 @@ header {
     margin-left: 2rem;
   } */
 
-  /**** Services Mobile Section *********************/
+  /**** Services Mobile Section ****/
   .services__dots-container {
     justify-content: center;
     max-width: 200px;
@@ -1017,7 +1017,7 @@ header {
   }
 }
 
-/**** Extra Small Screens ****/
+/**** Extra Small Screens *****************************/
 
 @media (max-width: 300px) {
   .logo__img {
