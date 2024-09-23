@@ -913,8 +913,8 @@ header {
   /**** Header for Mobile ****/
   .headerS {
     position: relative;
-    top: -41em;
-    margin-left: 9em;
+    top: -35em;
+    margin-left: 17em;
     width: 100%;
     text-align: right;
   }
