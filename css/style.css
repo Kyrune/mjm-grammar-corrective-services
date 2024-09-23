@@ -782,7 +782,11 @@ header {
 
 /* Medium Screens */
 @media (max-width: 1500px) and (min-width: 801px) {
-
+  .introS__img {
+    width: 100%;
+    max-width: 30%;
+    box-shadow: var(--bs);
+  }
 }
 
 @media (max-width: 1500px) {
