@@ -838,6 +838,10 @@ header {
     background-repeat: no-repeat;
   }
 
+  .img-headerS__subsection {
+    display: flex;
+  }
+
   /**** Header Medium/Small Section ****/
   .headerS {
     position: relative;
