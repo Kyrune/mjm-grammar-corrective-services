@@ -770,6 +770,7 @@ header {
 /**** Media Queries **************************************************************************************************************/
 
 /**** Large Screens ****/
+
 @media (min-width: 1401px) {
   .imgS {
     display: none;
@@ -781,6 +782,7 @@ header {
 }
 
 /**** Medium Screens ****/
+
 @media (max-width: 1500px) and (min-width: 801px) {
   .introS__subsection {
     padding-top: 4rem;
@@ -794,6 +796,7 @@ header {
 }
 
 /**** Medium/Small Screens ****/
+
 @media (max-width: 1500px) {
   .intro__subsection {
     display: none;
