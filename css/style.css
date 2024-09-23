@@ -897,7 +897,7 @@ header {
     color: var(--clr-light);
     background: var(--clr-dark);
     box-shadow: var(--bs);
-    z-index: -1;
+    z-index: -2;
   }
 
   .aboutS__text {
