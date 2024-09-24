@@ -135,7 +135,7 @@
 
   /**** Services Medium/Small Section ****/
   .services__subsection {
-    bottom: 0;
+    background-image: none;
   }
 
   .services__bg-img {
