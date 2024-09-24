@@ -68,7 +68,13 @@
   }
 
   .div__banner-center {
+    justify-content: space-around;
     max-width: 100%;
+  }
+
+  .blue-banner--center {
+    width: 90px;
+    height: 10px;
   }
 
   /**** Intro Medium/Small Section ****/
