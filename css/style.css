@@ -470,6 +470,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 5rem;
   /* bottom: 80rem; */
   width: 1400px;
   background-image: url(../images/bg-services.jpg);
