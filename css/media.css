@@ -135,11 +135,16 @@
 
   /**** Services Medium/Small Section ****/
   .services__subsection {
+    width: 100%;
     background-image: none;
   }
 
   .services__dots-container {
     max-width: 100%;
+  }
+
+  .subsection__service-text {
+    flex-direction: column;
   }
 
   .service__text {
