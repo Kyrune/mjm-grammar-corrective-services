@@ -56,6 +56,7 @@
   }
 
   .dots-S {
+    max-width: 11px;
     height: 0.7rem;
     font-size: 0.7em;
   }
@@ -265,10 +266,10 @@
     } */
 
   /**** Services Mobile Section ****/
-  .services__dots-container {
+  /* .services__dots-container {
     justify-content: center;
     max-width: 200px;
-  }
+  } */
 
   .services__subtitle {
     max-width: 300px;
