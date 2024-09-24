@@ -59,6 +59,10 @@
     bottom: 0;
   }
 
+  .div__banner-subsection {
+    max-width: 100%;
+  }
+
   /**** Intro Medium/Small Section ****/
   .introS__subsection {
     position: relative;
