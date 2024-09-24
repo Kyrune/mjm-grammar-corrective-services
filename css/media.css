@@ -59,25 +59,6 @@
     bottom: 0;
   } */
 
-  /**** Divider Banners Section ****/
-  .div__banner-subsection {
-    max-width: 100%;
-  }
-
-  .div__banner {
-    height: 15px;
-  }
-
-  .div__banner-center {
-    justify-content: space-around;
-    max-width: 100%;
-  }
-
-  .blue-banner--center {
-    width: 90px;
-    height: 10px;
-  }
-
   /**** Intro Medium/Small Section ****/
   .introS__subsection {
     position: relative;
@@ -200,6 +181,25 @@
   .title__img {
     margin-left: 0;
     max-width: 200px;
+  }
+
+  /**** Divider Banners Section ****/
+  .div__banner-subsection {
+    max-width: 100%;
+  }
+
+  .div__banner {
+    height: 15px;
+  }
+
+  .div__banner-center {
+    justify-content: space-around;
+    max-width: 100%;
+  }
+
+  .blue-banner--center {
+    width: 90px;
+    height: 10px;
   }
 
   /**** Intro Mobile Section ****/
