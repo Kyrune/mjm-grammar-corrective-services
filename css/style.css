@@ -492,7 +492,7 @@ header {
 .services__dots-container {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  /* flex-direction: row; */
   width: 100%;
   max-width: 45%;
 }
