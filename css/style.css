@@ -494,7 +494,7 @@ header {
   justify-content: space-around;
   flex-direction: row;
   width: 100%;
-  max-width: 50%;
+  max-width: 45%;
 }
 
 .section__blue-service--dots {
