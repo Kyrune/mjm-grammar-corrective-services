@@ -548,7 +548,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  bottom: 68.5rem;
+  /* bottom: 68.5rem; */
   width: 1400px;
   padding-top: 7rem;
   background: var(--clr-light);
@@ -595,7 +595,7 @@ header {
   padding: 2rem;
   color: var(--clr-accent);
   background: var(--clr-dark);
-  margin-bottom: -1.2rem;
+  /* margin-bottom: -1.2rem; */
   width: 50%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -615,7 +615,7 @@ header {
 
 .footer {
   width: 100%;
-  margin-top: -68.5rem;
+  /* margin-top: -68.5rem; */
   background: #111;
   color: var(--clr-accent);
   text-align: center;
