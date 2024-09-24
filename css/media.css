@@ -55,12 +55,16 @@
     width: 100%;
   }
 
-  .div__banner-position {
+  /* .div__banner-position {
     bottom: 0;
-  }
+  } */
 
   .div__banner-subsection {
     max-width: 100%;
+  }
+
+  .div__banner {
+    height: 15px;
   }
 
   /**** Intro Medium/Small Section ****/
