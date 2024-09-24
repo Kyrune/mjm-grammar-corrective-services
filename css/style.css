@@ -493,13 +493,10 @@ header {
 .services__dots-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   /* flex-direction: row; */
   width: 100%;
   max-width: 45%;
-}
-
-.blue-service--dots {
-  margin-top: 1.5rem;
 }
 
 .subsection__service-text {
