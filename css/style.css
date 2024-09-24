@@ -574,7 +574,7 @@ header {
   padding-bottom: 1rem;
 }
 
-.subsection__info {
+.info__subsection {
   display: flex;
   justify-content: center;
   align-items: center;
