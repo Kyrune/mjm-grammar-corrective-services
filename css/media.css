@@ -55,6 +55,11 @@
     width: 100%;
   }
 
+  .dots-S {
+    height: 0.7rem;
+    font-size: 0.7em;
+  }
+
   /* .div__banner-position {
     bottom: 0;
   } */
