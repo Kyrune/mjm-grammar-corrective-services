@@ -483,11 +483,23 @@ header {
   color: var(--clr-light);
 }
 
+.services__subtitle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .services__subtitle {
   padding-top: 1rem;
   padding-bottom: 4rem;
   color: var(--clr-light);
   font-size: var(--fs-body)
+}
+
+.services__bracket {
+  margin-top: -3rem;
+  font-size: 1.5em;
+  color: var(--clr-accent);
 }
 
 .services__dots-container {
