@@ -638,6 +638,10 @@ header {
   border-top: 2px solid var(--clr-dark);
 }
 
+.intext-services--link {
+  color: var(--clr-accent);
+}
+
 /**** Footer ********************************************************************************************************/
 
 .footer {
