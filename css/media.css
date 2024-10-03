@@ -144,6 +144,14 @@
   }
 
   /**** Services Medium/Small Section ****/
+  .services {
+    width: 100%;
+    background-image: url(../images/bg-services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .services__subsection {
     width: 100%;
     background-image: none;
