@@ -570,15 +570,15 @@ header {
   justify-content: space-around;
   flex-direction: row;
   width: 100%;
-  max-width: 30%;
+  max-width: 35%;
 }
 
 .info__title-subsection {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* margin-right: -1rem;
-  margin-left: -1rem; */
+  margin-right: -1rem;
+  margin-left: -1rem;
 }
 
 .info__title {
