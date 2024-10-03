@@ -184,6 +184,10 @@
     /* bottom: 0; */
   }
 
+  .info__dots-container {
+    max-width: 80%;
+  }
+
   /**** Footer Medium/Small Section ****/
   .footer {
     margin-top: 0;
