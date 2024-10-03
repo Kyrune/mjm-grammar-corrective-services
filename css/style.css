@@ -590,6 +590,17 @@ header {
   padding-bottom: 1rem;
 }
 
+.info__subtitle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__bracket {
+  font-size: 1.5em;
+  color: var(--clr-accent);
+}
+
 .info__subsection {
   display: flex;
   justify-content: center;
