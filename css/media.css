@@ -185,7 +185,11 @@
   }
 
   .info__dots-container {
-    max-width: 80%;
+    width: 80%;
+  }
+
+  .blue-info--dot {
+    top: 1rem;
   }
 
   /**** Footer Medium/Small Section ****/
