@@ -573,6 +573,11 @@ header {
   max-width: 35%;
 }
 
+.blue-info--dot {
+  position: relative;
+  top: 1.5rem;
+}
+
 .info__title-subsection {
   display: flex;
   align-items: center;
