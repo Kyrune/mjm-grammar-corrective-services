@@ -577,8 +577,8 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-right: -1rem;
-  margin-left: -1rem;
+  /* margin-right: -1rem;
+  margin-left: -1rem; */
 }
 
 .info__title {
@@ -601,12 +601,13 @@ header {
 }
 
 .info__step {
+  position: relative;
   display: flex;
   justify-content: center;
   padding: 2rem;
   color: var(--clr-accent);
   background: var(--clr-dark);
-  /* margin-bottom: -1.2rem; */
+  top: 1.3rem;
   width: 50%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
