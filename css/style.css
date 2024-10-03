@@ -569,8 +569,7 @@ header {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  width: 100%;
-  max-width: 33%;
+  width: 33%;
 }
 
 .blue-info--dot {
