@@ -192,6 +192,11 @@
     top: 1rem;
   }
 
+  .info__step {
+    top: 1rem;
+    padding: 1rem;
+  }
+
   /**** Footer Medium/Small Section ****/
   .footer {
     margin-top: 0;
