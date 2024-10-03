@@ -573,7 +573,7 @@ header {
   max-width: 30%;
 }
 
-.info__title-subsection{
+.info__title-subsection {
   display: flex;
   align-items: center;
   flex-direction: column;
