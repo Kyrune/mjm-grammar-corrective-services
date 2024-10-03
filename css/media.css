@@ -181,7 +181,7 @@
   /**** Info Medium/Small section ****/
   .info {
     width: 100%;
-    bottom: 0;
+    /* bottom: 0; */
   }
 
   /**** Footer Medium/Small Section ****/
