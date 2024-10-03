@@ -87,6 +87,33 @@ strong {
   z-index: -10;
 } */
 
+#top-anchor {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: var(--clr-accent);
+  color: var(--clr-light);
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 23px;
+  padding-left: 23px;
+  border-radius: 50%;
+  font-size: var(--fs-h3);
+  box-shadow: var(--bs);
+  opacity: .8;
+  transition: transform 200ms ease-in-out;
+}
+
+#top-anchor:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 .title__div {
   display: flex;
   width: 80%;
