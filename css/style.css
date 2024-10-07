@@ -245,10 +245,8 @@ h3 {
 header {
   position: relative;
   top: -24em;
-  margin-left: 107em;
-  width: 100%;
-  /* left: 32rem;
-  bottom: 48rem; */
+  margin-left: 30em;
+  width: 25%;
   text-align: right;
 }
 
@@ -261,6 +259,14 @@ header {
 
 .nav__itemL {
   display: flex;
+}
+
+.itemL1:hover {
+  animation-play-state: paused;
+}
+
+.itemL2:hover {
+  animation-play-state: paused;
 }
 
 .nav__linkL {
@@ -284,10 +290,10 @@ header {
 /* Fills gap between about text box and header with matching blue*/
 .nav__underitemL {
   position: relative;
-  width: 200px;
+  width: 300px;
   padding: 1.2rem;
   top: 0;
-  right: 15rem;
+  left: 5rem;
   background: var(--clr-accent);
   z-index: 3;
 }
@@ -330,20 +336,29 @@ header {
   100% { transform: translateX(0); }
 }
 
-/* Animation when hovering over header links */
-
 .itemL1 {
   margin-bottom: 1rem;
 }
 
+/* Add transition for smooth switch between hovers and slide1/2 animations */
 .linkL1 {
-  padding-left: .5rem;
+  padding-left: 2rem;
   margin-left: 2rem;
+  transition: transform 1s ease-in-out;
+}
+
+.linkL1:hover {
+  transform: translateX(30px);
 }
 
 .linkL2 {
-  padding-left: 3rem;
+  padding-left: 5rem;
   margin-left: 2rem;
+  transition: transform 1s ease-in-out;
+}
+
+.linkL2:hover {
+  transform: translateX(30px);
 }
 
 /**** Intro section **********************************************************************************************/
@@ -414,6 +429,7 @@ header {
 /* Helps keep text About elements in place */
 .about__off-center1 {
   left: 7.5rem;
+  width: 80%;
 }
 
 /* Helps keep text About elements in place */
