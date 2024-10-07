@@ -330,6 +330,8 @@ header {
   100% { transform: translateX(0); }
 }
 
+/* Animation when hovering over header links */
+
 .itemL1 {
   margin-bottom: 1rem;
 }
