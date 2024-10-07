@@ -281,7 +281,7 @@ header {
   /* box-shadow: inset 1.1em 0 0.75em -1em rgba(0,0,0,0.5); */
 }
 
-/* Fills gap between about text box and header */
+/* Fills gap between about text box and header with matching blue*/
 .nav__underitemL {
   position: relative;
   width: 200px;
