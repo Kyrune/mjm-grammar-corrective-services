@@ -123,7 +123,7 @@
     padding-bottom: 0.7rem;
     background: var(--clr-accent);
     font-family: var(--ff-title);
-    font-size: 0.7em;
+    font-size: 1em;
     font-weight: var(--fw-bold);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
