@@ -1,7 +1,7 @@
 /**** Large Screens *****************************************************************************************************/
 
 @media (min-width: 1151px) {
-  /* Remove Small (mobile) elements on Larger screen */
+  /* Remove Small (mobile) elements from Larger screen */
   .imgS {
     display: none;
   }
