@@ -1,6 +1,6 @@
 /**** Large Screens *****************************************************************************************************/
 
-@media (min-width: 1501px) {
+@media (min-width: 1001px) {
   /* Remove Small (mobile) elements on Larger screen */
   .imgS {
     display: none;
@@ -21,7 +21,18 @@
 
 /**** Medium Screens Only ************************************************************************************************/
 
-@media (max-width: 1500px) and (min-width: 801px) {
+@media (max-width: 1500px) and (min-width: 1001px) {
+  .intro__subsection {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 1001px) {
+  .services__dots-container {
+    max-width: 60%;
+  }
+}
+/* @media (max-width: 1500px) and (min-width: 801px) {
   .introS__subsection {
     padding-top: 4rem;
   }
@@ -40,11 +51,33 @@
   .nav__underitemS {
     margin-left: -10em;
   }
-}
+} */
 
 /**** Medium/Small Screens **********************************************************************************************/
 
 @media (max-width: 1500px) {
+  .services {
+    width: 100%;
+    background-position: center;
+  }
+
+  .services__subsection {
+    width: 100%;
+  }
+
+  .subsection__service-text {
+    flex-direction: column;
+  }
+
+  .service__miditem {
+    margin-top: 4rem;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 1000px) {
   /* Remove intro section on smaller screens */
   .intro__subsection {
     display: none;
@@ -158,38 +191,27 @@
   }
 
   /**** Services Medium/Small Section ****/
-  .services {
+  /* .services {
     width: 100%;
     background-image: url(../images/bg-services.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
 
-  .services__subsection {
+  /* .services__subsection {
     width: 100%;
     background-image: none;
-  }
+  } */
 
   .services__dots-container {
     max-width: 100%;
-  }
-
-  .subsection__service-text {
-    flex-direction: column;
   }
 
   .service__text {
     border-top: 2px solid var(--clr-accent);
     border-bottom: 2px solid var(--clr-accent);
     box-shadow: none;
-  }
-
-  .service__miditem {
-    margin-top: 4rem;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 4rem;
   }
 
   /**** Info Medium/Small section ****/
