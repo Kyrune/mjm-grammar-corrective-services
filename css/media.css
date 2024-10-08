@@ -75,6 +75,10 @@
     margin-left: 0;
     margin-bottom: 4rem;
   }
+
+  .info {
+    width: 100%;
+  }
 }
 
 /**** SM-Medium/Small Screens **********************************************************************************************/
@@ -217,10 +221,6 @@
   }
 
   /**** Info Medium/Small section ****/
-  .info {
-    width: 100%;
-    /* bottom: 0; */
-  }
 
   .info__dots-container {
     width: 80%;
