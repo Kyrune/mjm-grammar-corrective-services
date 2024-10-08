@@ -1,6 +1,6 @@
 /**** Large Screens *****************************************************************************************************/
 
-@media (min-width: 1001px) {
+@media (min-width: 1151px) {
   /* Remove Small (mobile) elements on Larger screen */
   .imgS {
     display: none;
@@ -21,13 +21,13 @@
 
 /**** Medium Screens Only ************************************************************************************************/
 
-@media (max-width: 1500px) and (min-width: 1001px) {
+@media (max-width: 1500px) and (min-width: 1151px) {
   .intro__subsection {
     width: 100%;
   }
 }
 
-@media (max-width: 1300px) and (min-width: 1001px) {
+@media (max-width: 1300px) and (min-width: 1151px) {
   .services__dots-container {
     max-width: 60%;
   }
@@ -84,7 +84,7 @@
 
 /**** SM-Medium/Small Screens **********************************************************************************************/
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   /* Remove intro section on smaller screens */
   .intro__subsection {
     display: none;
@@ -119,9 +119,24 @@
     font-size: 0.7em;
   }
 
-  /* .div__banner-position {
-    bottom: 0;
-  } */
+  /**** Divider Banners Mobile Section ****/
+  .div__banner-subsection {
+    max-width: 100%;
+  }
+
+  .div__banner {
+    height: 15px;
+  }
+
+  .div__banner-center {
+    justify-content: space-around;
+    max-width: 100%;
+  }
+
+  .blue-banner--center {
+    width: 90px;
+    height: 10px;
+  }
 
   /**** Intro Medium/Small Section ****/
   .introS__subsection {
@@ -131,17 +146,49 @@
     background-repeat: no-repeat;
   }
 
+  .introS__subsection {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .img-headerS__subsection {
     position: relative;
     display: flex;
   }
 
-  /**** Header Medium/Small Section ****/
-  .headerS {
+  .introS__img {
     position: relative;
     width: 100%;
     max-width: 50%;
+    height: auto;
+    box-shadow: var(--bs);
+    z-index: 10;
+  }
+
+  .aboutS__subsection {
+    position: relative;
+    margin-top: -2em;
+    padding-top: 4rem;
+    color: var(--clr-light);
+    background: var(--clr-dark);
+    box-shadow: var(--bs);
+    z-index: 1;
+  }
+
+  .aboutS__text {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /**** Header Medium/Small Section ****/
+  .headerS {
+    position: relative;
+    top: 2em;
+    width: 100%;
+    max-width: 50%;
     text-align: right;
+    margin-left: -4em;
   }
 
   .nav__listS {
@@ -158,15 +205,15 @@
   .nav__linkS {
     position: relative;
     align-self: flex-end;
-    padding-top: 0.7rem;
-    padding-right: 0.7rem;
-    padding-bottom: 0.7rem;
+    padding-top: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1.3rem;
     background: var(--clr-accent);
     font-family: var(--ff-title);
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: var(--fw-bold);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     color: var(--clr-dark);
     text-decoration: none;
     z-index: 4;
@@ -177,25 +224,26 @@
   }
 
   .linkS1 {
-    padding-left: 0.5rem;
+    padding-left: 2rem;
     margin-left: 2rem;
   }
 
   .linkS2 {
-    padding-left: 2rem;
+    padding-left: 5.3rem;
     margin-left: 2rem;
   }
 
   /* Fills gap between about text box and header */
   .nav__underitemS {
     position: relative;
-    width: 80px;
-    padding: 0.7rem;
+    width: 100px;
+    margin-left: -10em;
+    padding: 1.3rem;
     top: 0;
-    font-size: 0.7em;
     background: var(--clr-accent);
     z-index: 3;
   }
+  
 
   /**** Services Medium/Small Section ****/
   /* .services {
@@ -249,6 +297,10 @@
 
 /**** L-Small Screens **************************************************************************************************/
 
+@media (max-width: 999px) {
+  
+}
+
 /**** M-Small Screens **************************************************************************************************/
 
 @media (max-width: 800px) {
@@ -261,41 +313,22 @@
     max-width: 200px;
   }
 
-  /**** Divider Banners Mobile Section ****/
-  .div__banner-subsection {
-    max-width: 100%;
-  }
-
-  .div__banner {
-    height: 15px;
-  }
-
-  .div__banner-center {
-    justify-content: space-around;
-    max-width: 100%;
-  }
-
-  .blue-banner--center {
-    width: 90px;
-    height: 10px;
-  }
-
   /**** Intro Mobile Section ****/
-  .introS__subsection {
+  /* .introS__subsection {
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
+  } */
 
-  .introS__img {
+  /* .introS__img {
     position: relative;
     width: 100%;
     max-width: 50%;
     height: auto;
     box-shadow: var(--bs);
     z-index: 10;
-  }
+  } */
 
-  .aboutS__subsection {
+  /* .aboutS__subsection {
     position: relative;
     margin-top: -3em;
     padding-top: 4rem;
@@ -309,17 +342,34 @@
     padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 2rem;
-  }
+  } */
 
   /**** Header for Mobile ****/
   .headerS {
     top: 0em;
     margin-left: -4em;
   }
-
+    
+  .nav__linkS {
+    padding-top: 0.7rem;
+    padding-right: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 1em;
+  }
+  
   /* Fills gap between about text box and header */
   .nav__underitemS {
-    margin-left: -10em;
+    top: 0;
+    /* margin-left: -10em; */
+    padding: 0.7rem;
+  }
+
+  .linkS1 {
+    padding-left: 0.5rem;
+  }
+
+  .linkS2 {
+    padding-left: 2.7rem;
   }
 
   /* .itemS1 {
