@@ -348,6 +348,15 @@
     background-image: none;
   } */
 
+  .services__subtitle {
+    text-align: justify;
+  }
+
+  .services__bracket {
+    font-size: 5em;
+    font-weight: lighter;
+  }
+
   .service__text {
     border-top: 2px solid var(--clr-accent);
     border-bottom: 2px solid var(--clr-accent);
@@ -526,13 +535,13 @@
 
   .services__subtitle {
     max-width: 300px;
-    text-align: justify;
+    /* text-align: justify; */
   }
 
-  .services__bracket {
+  /* .services__bracket {
     font-size: 4em;
     font-weight: lighter;
-  }
+  } */
 }
 
 /**** Extra Small Screens **********************************************************************************************/
