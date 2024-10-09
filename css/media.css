@@ -147,6 +147,14 @@
   .services__subtitle-container {
     max-width: 50%;
   }
+  
+  .info__dots-container {
+    width: 50%;
+  }
+
+  .blue-info--dot {
+    margin-top: 0.5rem;
+  }
 }
 
 /**** L-Medium/Small Screens **********************************************************************************************/
