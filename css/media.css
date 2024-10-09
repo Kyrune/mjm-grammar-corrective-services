@@ -143,6 +143,10 @@
   .services__dots-container {
     max-width: 70%;
   }
+
+  .services__subtitle-container {
+    max-width: 50%;
+  }
 }
 
 /**** L-Medium/Small Screens **********************************************************************************************/
