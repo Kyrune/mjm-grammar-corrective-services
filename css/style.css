@@ -538,7 +538,8 @@ header {
   padding-top: 1rem;
   padding-bottom: 4rem;
   color: var(--clr-light);
-  font-size: var(--fs-body)
+  font-size: var(--fs-body);
+  line-height: 1.5;
 }
 
 .services__bracket {
