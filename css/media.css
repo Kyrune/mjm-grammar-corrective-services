@@ -369,10 +369,6 @@
 
   /**** Info Medium/Small section ****/
 
-  .info__dots-container {
-    width: 80%;
-  }
-
   .blue-info--dot {
     top: 1rem;
   }
@@ -548,6 +544,10 @@
   } */
 
   /**** Info M-Small Section****/
+  .info__dots-container {
+    width: 80%;
+  }
+
   .info__step {
     top: 1rem;
   }
