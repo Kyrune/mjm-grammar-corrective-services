@@ -128,26 +128,6 @@
     padding-bottom: 2rem;
   }
 }
-/* @media (max-width: 1500px) and (min-width: 801px) {
-  .introS__subsection {
-    padding-top: 4rem;
-  }
-
-  .introS__img {
-    width: 100%;
-    max-width: 30%;
-    box-shadow: var(--bs);
-  }
-
-  .headerS {
-    top: 1em;
-    margin-left: 0em;
-  }
-
-  .nav__underitemS {
-    margin-left: -10em;
-  }
-} */
 
 /**** L-Medium/Small Screens **********************************************************************************************/
 
