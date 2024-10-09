@@ -21,6 +21,7 @@
 
 /**** Medium Screens Only ************************************************************************************************/
 
+
 @media (max-width: 1500px) and (min-width: 1151px) {
   .intro__subsection {
     width: 100%;
@@ -34,6 +35,16 @@
 }
 
 @media (max-width: 1150px) and (min-width: 801px) {
+  .logo__img {
+    max-width: 200px;
+  }
+
+  .title__img {
+    margin-left: 0;
+    max-width: 500px;
+  }
+
+  /**** Intro Medium Screens Only ****/
   .introS__subsection {
     width: 100%;
     max-width: 100%;
