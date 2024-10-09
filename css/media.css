@@ -138,6 +138,11 @@
     width: 150px;
     padding-bottom: 2rem;
   }
+
+  /**** Services Medium Screens Only ****/
+  .services__dots-container {
+    max-width: 70%;
+  }
 }
 
 /**** L-Medium/Small Screens **********************************************************************************************/
@@ -339,10 +344,6 @@
     background-image: none;
   } */
 
-  .services__dots-container {
-    max-width: 100%;
-  }
-
   .service__text {
     border-top: 2px solid var(--clr-accent);
     border-bottom: 2px solid var(--clr-accent);
@@ -514,6 +515,10 @@
     justify-content: center;
     max-width: 200px;
   } */
+
+  .services__dots-container {
+    max-width: 100%;
+  }
 
   .services__subtitle {
     max-width: 300px;
