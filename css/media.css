@@ -374,7 +374,7 @@
   }
 
   .info__step {
-    top: 1rem;
+    /* top: 1rem; */
     padding: 1rem;
   }
 
@@ -542,6 +542,10 @@
     font-size: 4em;
     font-weight: lighter;
   } */
+
+  .info__step {
+    top: 1rem;
+  }
 }
 
 /**** Extra Small Screens **********************************************************************************************/
