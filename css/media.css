@@ -609,6 +609,7 @@
 /**** SM-Small Screens **********************************************************************************************/
 
 @media (max-width: 800px) and (min-width: 550px) {
+  /**** Logo - SM-Small Section****/
   .logo__img {
     max-width: 170px;
   }
