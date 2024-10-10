@@ -576,7 +576,7 @@
       margin-left: 2rem;
     } */
 
-  /**** Services M-Small Section ****/
+  /**** Services - M-Small Section ****/
   /* .services__dots-container {
     justify-content: center;
     max-width: 200px;
@@ -596,7 +596,7 @@
     font-weight: lighter;
   } */
 
-  /**** Info M-Small Section****/
+  /**** Info - M-Small Section****/
   .info__dots-container {
     width: 80%;
   }
@@ -618,7 +618,7 @@
     max-width: 350px;
   }
 
-  /**** Header SM-Small Section****/
+  /**** Header - SM-Small Section****/
   .headerS {
     top: 2em;
   }
