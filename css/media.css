@@ -1,7 +1,7 @@
 /**** Large Screens *****************************************************************************************************/
 
 @media (min-width: 1151px) {
-  /* Remove Small (mobile) elements from Larger screen */
+  /* Remove Small (mobile) elements from Larger screens */
   .imgS {
     display: none;
   }
@@ -21,19 +21,21 @@
 
 /**** Medium Screens Only ************************************************************************************************/
 
-
+/* 1500-1151 */
 @media (max-width: 1500px) and (min-width: 1151px) {
   .intro__subsection {
     width: 100%;
   }
 }
 
+/* 1300-1151 */
 @media (max-width: 1300px) and (min-width: 1151px) {
   .services__dots-container {
     max-width: 60%;
   }
 }
 
+/* 1150-801 */
 @media (max-width: 1150px) and (min-width: 801px) {
   .logo__img {
     max-width: 200px;
