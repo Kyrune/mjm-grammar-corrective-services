@@ -430,7 +430,7 @@
     height: 10px;
   }
 
-  /**** Intro Mobile Section ****/
+  /**** Intro M-Small Section ****/
 
   .introS__img {
     max-width: 50%;
@@ -470,7 +470,7 @@
     padding-bottom: 2rem;
   } */
 
-  /**** Header for Mobile ****/
+  /**** Header M-Small Section ****/
   .headerS {
     top: 0em;
     margin-left: -4em;
@@ -546,7 +546,7 @@
       margin-left: 2rem;
     } */
 
-  /**** Services Mobile Section ****/
+  /**** Services M-Small Section ****/
   /* .services__dots-container {
     justify-content: center;
     max-width: 200px;
