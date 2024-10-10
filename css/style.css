@@ -679,6 +679,7 @@ header {
   padding-right: 7rem;
   padding-left: 7rem;
   padding-bottom: 3rem;
+  text-align: justify;
   font-size: var(--fs-body);
   color: var(--clr-dark);
   border-top: 2px solid var(--clr-dark);
