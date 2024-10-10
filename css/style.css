@@ -668,7 +668,7 @@ header {
   padding: 2rem;
   color: var(--clr-accent);
   background: var(--clr-dark);
-  top: 1.3rem;
+  margin-bottom: -1.2rem;
   width: 50%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
