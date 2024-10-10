@@ -163,12 +163,12 @@
 @media (max-width: 1500px) {
   
   .div__banner {
-    height: 15px;
+    height: 25px;
   }
 
   .blue-banner--center {
-    width: 90px;
-    height: 10px;
+    width: 150px;
+    height: 20px;
   }
 
   /**** Services L-Medium/Small Section****/
@@ -243,19 +243,19 @@
     max-width: 100%;
   }
 
-  .div__banner {
-    height: 15px;
-  }
+  /* .div__banner {
+    height: 30px;
+  } */
 
   .div__banner-center {
     justify-content: space-around;
     max-width: 100%;
   }
 
-  .blue-banner--center {
+  /* .blue-banner--center {
     width: 90px;
-    height: 10px;
-  }
+    height: 20px;
+  } */
 
   /**** Intro Medium/Small Section ****/
   .introS__subsection {
