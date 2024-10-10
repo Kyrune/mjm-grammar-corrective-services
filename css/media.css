@@ -37,7 +37,7 @@
 
 /* 1150-801 */
 @media (max-width: 1150px) and (min-width: 801px) {
-  /**** Logo Medium Screens Only ****/
+  /**** Logo - Medium Screens Only ****/
   .logo__img {
     max-width: 200px;
   }
@@ -47,7 +47,7 @@
     max-width: 500px;
   }
 
-  /**** Intro Medium Screens Only ****/
+  /**** Intro - Medium Screens Only ****/
   .introS__subsection {
     width: 100%;
     max-width: 100%;
@@ -70,7 +70,7 @@
     margin-left: 20em;
   }
 
-  /**** Header Medium Screens Only ****/
+  /**** Header - Medium Screens Only ****/
   .headerS {
     top: 11.3em;
     width: 100%;
@@ -133,7 +133,7 @@
     margin-left: 2rem;
   } */
 
-  /* Fills gap between about text box and header */
+  /* Fills gap between about__text box and header */
   .nav__underitemS {
     /* width: 100px;
     margin-left: -10em;
@@ -143,7 +143,7 @@
     padding-bottom: 2rem;
   }
 
-  /* Animation for Services btn */
+  /* Animation for Header Services btn */
   .slide1 {
     transform-origin: bottom;
     animation-duration: 10s;
@@ -162,7 +162,7 @@
     100% { transform: translateY(0); }
   }
 
-  /* Animation for Info btn */
+  /* Animation for Header Info btn */
   .slide2 {
     transform-origin: bottom;
     animation-duration: 10s;
@@ -181,7 +181,7 @@
     100% { transform: translateY(0); }
   }
 
-  /**** Services Medium Screens Only ****/
+  /**** Services - Medium Screens Only ****/
   .services__dots-container {
     max-width: 70%;
   }
@@ -190,7 +190,7 @@
     max-width: 50%;
   }
   
-  /**** Info Medium Screens Only ****/
+  /**** Info - Medium Screens Only ****/
   .info__dots-container {
     width: 50%;
   }
@@ -203,7 +203,7 @@
 /**** L-Medium/Small Screens **********************************************************************************************/
 
 @media (max-width: 1500px) {
-  /**** Divider Banners L-Medium/Small Section****/
+  /**** Divider Banners - L-Medium/Small Section****/
   .div__banner {
     height: 25px;
   }
@@ -213,7 +213,7 @@
     height: 20px;
   }
 
-  /**** Services L-Medium/Small Section****/
+  /**** Services - L-Medium/Small Section****/
   .services {
     width: 100%;
     background-position: center;
@@ -233,7 +233,7 @@
     margin-left: 0;
     margin-bottom: 4rem;
   }
-  /**** Info L-Medium/Small Section****/
+  /**** Info - L-Medium/Small Section****/
   .info {
     width: 100%;
   }
@@ -246,12 +246,12 @@
 /**** SM-Medium/Small Screens **********************************************************************************************/
 
 @media (max-width: 1150px) {
-  /* Remove intro section on smaller screens */
+  /* Remove large-screen intro section from smaller screens */
   .intro__subsection {
     display: none;
   }
 
-  /**** General Medium/Small Section****/
+  /**** General - Medium/Small Section****/
   #top-anchor {
     right: 10px;
     padding-top: 10px;
@@ -280,7 +280,7 @@
     font-size: 0.7em;
   }
 
-  /**** Divider Banners Mobile Section ****/
+  /**** Divider Banners - Medium/Small Section ****/
   .div__banner-subsection {
     max-width: 100%;
   }
@@ -299,7 +299,7 @@
     height: 20px;
   } */
 
-  /**** Intro Medium/Small Section ****/
+  /**** Intro - Medium/Small Section ****/
   .introS__subsection {
     position: relative;
     background-image: url(../images/bg-intro.jpg);
@@ -336,7 +336,7 @@
     padding-bottom: 2rem;
   }
 
-  /**** Header Medium/Small Section ****/
+  /**** Header - Medium/Small Section ****/
   .headerS {
     position: relative;
     /* top: 2em; */
@@ -399,7 +399,7 @@
   }
   
 
-  /**** Services Medium/Small Section ****/
+  /**** Services - Medium/Small Section ****/
   /* .services {
     width: 100%;
     background-image: url(../images/bg-services.jpg);
@@ -428,7 +428,7 @@
     box-shadow: none;
   }
 
-  /**** Info Medium/Small section ****/
+  /**** Info - Medium/Small section ****/
 
   .blue-info--dot {
     top: 1rem;
@@ -444,7 +444,7 @@
     padding-left: 3rem;
   }
 
-  /**** Footer Medium/Small Section ****/
+  /**** Footer - Medium/Small Section ****/
   .footer {
     margin-top: 0;
   }
