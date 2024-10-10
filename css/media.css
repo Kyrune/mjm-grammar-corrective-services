@@ -548,17 +548,10 @@
     position: relative;
     width: 100px;
     margin-left: -10em;
-    padding: 1.3rem;
+    padding: 0.7rem;
     top: 0;
     background: var(--clr-accent);
     z-index: 3;
-  }
-  
-  /* Fills gap between about text box and header */
-  .nav__underitemS {
-    top: 0;
-    /* margin-left: -10em; */
-    padding: 0.7rem;
   }
 
   .linkS1 {
