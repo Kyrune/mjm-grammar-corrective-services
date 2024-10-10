@@ -161,6 +161,16 @@
 /**** L-Medium/Small Screens **********************************************************************************************/
 
 @media (max-width: 1500px) {
+  
+  .div__banner {
+    height: 15px;
+  }
+
+  .blue-banner--center {
+    width: 90px;
+    height: 10px;
+  }
+
   /**** Services L-Medium/Small Section****/
   .services {
     width: 100%;
@@ -408,6 +418,15 @@
   .title__img {
     margin-left: 0;
     max-width: 200px;
+  }
+
+  .div__banner {
+    height: 15px;
+  }
+
+  .blue-banner--center {
+    width: 90px;
+    height: 10px;
   }
 
   /**** Intro Mobile Section ****/
