@@ -559,6 +559,14 @@
 /**** SM-Small Screens **********************************************************************************************/
 
 @media (max-width: 800px) and (min-width: 550px) {
+  .logo__img {
+    max-width: 170px;
+  }
+
+  .title__img {
+    margin-left: 0;
+    max-width: 350px;
+  }
 
   /**** Header SM-Small Section****/
   .headerS {
