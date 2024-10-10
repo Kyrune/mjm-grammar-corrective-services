@@ -558,7 +558,18 @@
 
 @media (max-width: 800px) and (min-width: 550px) {
   .headerS {
-    top: 3em;
+    top: 2em;
+  }
+
+  .nav__linkS {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2em;
+  }
+
+  .itemS1 {
+    margin-bottom: 2rem;
   }
 }
 
