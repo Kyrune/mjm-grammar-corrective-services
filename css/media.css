@@ -161,7 +161,7 @@
 /**** L-Medium/Small Screens **********************************************************************************************/
 
 @media (max-width: 1500px) {
-  
+  /**** Divider Banners L-Medium/Small Section****/
   .div__banner {
     height: 25px;
   }
