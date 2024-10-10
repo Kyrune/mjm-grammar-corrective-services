@@ -37,6 +37,7 @@
 
 /* 1150-801 */
 @media (max-width: 1150px) and (min-width: 801px) {
+  /**** Logo Medium Screens Only ****/
   .logo__img {
     max-width: 200px;
   }
